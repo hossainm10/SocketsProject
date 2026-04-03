@@ -21,7 +21,7 @@ def pattern_algorithm(wildcard_input):
     return index_dict
 
 
-def open_file(path="/home/hossainmahatheer/Downloads/wordlist.txt"):
+def open_file(path="wordlist.txt"):
     words_list=defaultdict(list)
     with open(path,'r') as f:
 
